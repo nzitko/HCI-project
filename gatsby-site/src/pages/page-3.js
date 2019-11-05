@@ -1,11 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import Navigation from "../components/navigation"
 
-const SecondPage = () => (
-  <div>
-    <h1>Hi from the third page</h1>
-    <p>Welcome to page 3</p>
-    <Link to="/page-2/">Go back to the homepage</Link>
-  </div>
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const fixturesPage = () => (
+  <Layout>
+    <SEO title="Fixtures" />
+    <h1>Fixtures</h1>
+  </Layout>
 )
-export default SecondPage
+
+export default fixturesPage

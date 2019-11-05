@@ -1,15 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
+import Navigation from "../components/navigation"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
-
-const IndexPage = () => (
+const tablePage = () => (
   <Layout>
-    <h1>Premier league</h1>
+    <SEO title="Table" />
+    <h1>Table</h1>
   </Layout>
 )
 
-export default IndexPage
+export default tablePage

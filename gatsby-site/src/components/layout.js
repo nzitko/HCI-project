@@ -6,8 +6,29 @@ import "./layout.css"
 
 const menuItems = [
   {
-    text: "Page 2",
+    text: "Home",
+    link: "/",
+  },
+  
+  {
+    text: "Teams",
     link: "/page-2",
+  },
+  {
+    text: "Fixtures",
+    link: "/page-3",
+  },
+  {
+    text: "Table",
+    link: "/Table",
+  },
+  {
+    text: "Players",
+    link: "/Players",
+  },
+  {
+    text: "Social",
+    link: "/Social",
   }
 ]
 

@@ -10,7 +10,6 @@ const Navigation = ({menuItems}) => {
       ))
 
       return <ul>{menus}</ul>
-
 }
 
 export default Navigation
