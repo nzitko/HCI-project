@@ -1,8 +1,18 @@
-
 import React from "react"
 import {Link} from "gatsby" 
 import Navigation from "./navigation"
 import "./layout.css"
+
+
+
+//const myStyles= {backgroundColor:"#008B8B" , height: "100vh"}
+
+const Layout = props => (
+  <div class="mystyle">
+      <Navigation menuItems={menuItems}></Navigation>
+      {props.children}
+  </div>
+)
 
 const menuItems = [
   {
@@ -12,11 +22,11 @@ const menuItems = [
   
   {
     text: "Teams",
-    link: "/page-2",
+    link: "/Teams",
   },
   {
     text: "Fixtures",
-    link: "/page-3",
+    link: "/Fixtures",
   },
   {
     text: "Table",
@@ -31,14 +41,5 @@ const menuItems = [
     link: "/Social",
   }
 ]
-
-//const myStyles= {backgroundColor:"#008B8B" , height: "100vh"}
-
-const Layout = props => (
-  <div class="mystyle">
-      <Navigation menuItems={menuItems}></Navigation>
-      {props.children}
-  </div>
-)
 
 export default Layout
