@@ -1,15 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navigation from "../components/navigation"
+//import { Link } from "gatsby"
+//import Navigation from "../components/navigation"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const playersPage = () => (
-  <Layout>
-    <SEO title="Players" />
-    <h1>Players</h1>
-  </Layout>
+  <div>
+    <Layout>
+      <SEO title="Players" />
+    </Layout>
+    <p className = "page-title">Players</p>
+  </div>
 )
 
 export default playersPage

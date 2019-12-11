@@ -1,15 +1,17 @@
 import React from "react"
-import { Link } from "gatsby"
-import Navigation from "../components/navigation"
+//import { Link } from "gatsby"
+//import Navigation from "../components/navigation"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const socialPage = () => (
-  <Layout>
-    <SEO title="Social" />
-    <h1>Social</h1>
-  </Layout>
+  <div>
+    <Layout>
+      <SEO title="Social" />
+    </Layout>
+    <p className = "page-title">Social</p>
+  </div>
 )
 
 export default socialPage
