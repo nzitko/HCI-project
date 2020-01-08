@@ -1,42 +1,52 @@
 .mystyle {
-  background-color: #008B8B;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
+  padding: 0;
 }
 
-.link{
+body {
+  margin: 0;
+}
+
+.link {
+  background-color: #008b8b;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   align-content: space-around;
   flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
 }
 
-.everyLink{
-padding: 25px;
-margin: 0;
-font-family: Arial, Helvetica, sans-serif;
-font-size: 30px;
-list-style-type: none;
+.everyLink {
+  padding: 25px;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  list-style-type: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.title{
-  font-family: 'Courier New', Courier, monospace;
+.title {
+  font-family: "Courier New", Courier, monospace;
   font-size: 40px;
   padding: 10px;
 }
 
-.page-title{
+.page-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size:1.7rem;
+  font-size: 1.7rem;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.log-in-container{
+.log-in-container {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -45,7 +55,7 @@ a{
   margin: auto;
 }
 
-.inputField{
+.inputField {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -55,9 +65,9 @@ a{
   box-sizing: border-box;
 }
 
-.btn{
+.btn {
   width: 100%;
-  background-color:	#ADFF2F;
+  background-color: #adff2f;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -68,5 +78,14 @@ a{
 }
 
 .btn:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fixtures-title-name {
+  font-family: cursive;
+  font-size: 1.7rem;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
