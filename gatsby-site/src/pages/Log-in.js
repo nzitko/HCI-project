@@ -8,10 +8,10 @@ const logInPage = () => (
     <SEO title="Log in" />
     <div className = "log-in-container">
       <p className="page-title">Log in</p>
-      <input type="text" placeholder="Username" className="inputField"></input>
-      <input type="text" placeholder="E-mail" className="inputField"></input>
-      <input type="password" placeholder="Password" className="inputField"></input>
-      <input type="password" placeholder="Repeat password" className="inputField"></input>
+      <input type="text" placeholder="Username" className="input-field"></input>
+      <input type="text" placeholder="E-mail" className="input-field"></input>
+      <input type="password" placeholder="Password" className="input-field"></input>
+      <input type="password" placeholder="Repeat password" className="input-field"></input>
       <button className="btn">Log in</button>
     </div>
   </Layout>

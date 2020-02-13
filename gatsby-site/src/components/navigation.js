@@ -3,9 +3,8 @@ import { Link } from "gatsby"
 import "./layout.css"
 
 const Navigation = ({menuItems}) => {
-
     const menus = menuItems.map(({ link, text }) => (
-        <li className = "everyLink" key={link}  >
+        <li className = "every-link" key={link}  >
           <Link to={link}>{text}</Link>
         </li>
       ))

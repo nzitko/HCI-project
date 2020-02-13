@@ -7,10 +7,17 @@
 
 body {
   margin: 0;
+  background-color: #008b8b;
+}
+
+.pl-logo{
+
+  height:30px;
+  width:30px;
 }
 
 .link {
-  background-color: #008b8b;
+  background-color: #5F9EA0;
   list-style-type: none;
   display: flex;
   flex-direction: row;
@@ -20,7 +27,7 @@ body {
   margin: 0;
 }
 
-.everyLink {
+.every-link {
   padding: 25px;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -44,6 +51,8 @@ a {
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: flex;
+  align-self: center;
 }
 
 .log-in-container {
@@ -55,7 +64,7 @@ a {
   margin: auto;
 }
 
-.inputField {
+.input-field {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -89,3 +98,87 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.search-field {
+  margin: auto;
+  height: 40px;
+  width: 250px;
+  padding:5px;
+  border-radius: 50%;
+  font-size: large;
+}
+
+.card-container {
+  margin-top:20px;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+  flex-wrap:wrap;
+}
+
+.team-card{
+
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  background-color: #adff2f;
+}
+
+.club-image{
+
+  width:100%;
+  height:75%;
+}
+
+.club-name{
+
+  text-align: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:red;
+}
+
+.fixture-container{
+  
+  height:75%;
+  width:100%;
+  background-color: #00FFFF;
+  border-radius: 50%;
+}
+
+.fixture-block{
+
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+}
+
+.left-club{
+
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+
+}
+
+.fixture-info{
+  display:flex;
+  flex-direction: row;
+  align-items:flex-end;
+
+}
+
+.right-club{
+
+  display:flex;
+}
+
+.club-logo{
+
+  height:200px;
+  width:200px;
+}
+
+
+
