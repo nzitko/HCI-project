@@ -3,12 +3,12 @@ import TeamCard from "../components/TeamCard"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ars from "../images/emirates.jpg"
-import avl from "../images/Aston-Villa-stadium.jpg"
-import bou from "../images/bournemouth-stadium.jpg"
-import bha from "../images/brighton-stadium.jpg"
-import bur from "../images/burnley-stadium.jpg"
-import che from "../images/chelsea-stadium.jpg"
+import ars from "../images/stadiums/emirates.jpg"
+import avl from "../images/stadiums/Aston-Villa-stadium.jpg"
+import bou from "../images/stadiums/bournemouth-stadium.jpg"
+import bha from "../images/stadiums/brighton-stadium.jpg"
+import bur from "../images/stadiums/burnley-stadium.jpg"
+import che from "../images/stadiums/chelsea-stadium.jpg"
 
 const teamsPage = () => (
   <Layout>
