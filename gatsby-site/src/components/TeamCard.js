@@ -1,12 +1,13 @@
 import React from "react"
 import "./layout.css"
+import Img from "gatsby-image"
 
-const TeamCard = ({image, name}) => {
+const TeamCard = ({ key, image, name }) => {
     return (
-    <div className="team-card">
-        <img src={image} alt="arsenal" className="club-image"/>
-        <p className="club-name">{name}</p>
-    </div>
+        <div className="team-card">
+            <Img key={key} fluid={image} alt="arsenal" className="club-image" />
+            <p className="club-name">{name}</p>
+        </div>
     );
 }
 

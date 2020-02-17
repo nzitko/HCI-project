@@ -136,6 +136,7 @@ a {
   padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
   color:red;
+  padding-bottom: 90px;
 }
 
 .match-score{
@@ -209,17 +210,17 @@ a {
   position: relative;
 }
 
-.slides .slick-prev,
-.slides .slick-next {
+
+.slides .slick-prev:before,
+.slides .slick-next:before {
   position: absolute;
   top: 50%;
   z-index:1;
-
+  font-size: 50px;
 }
 
 .slides .slick-prev {
   left: 5%;
-  
 }
 
 
