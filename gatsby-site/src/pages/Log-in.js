@@ -6,8 +6,8 @@ const logInPage = () => (
 
   <Layout>
     <SEO title="Log in" />
-    <div className = "log-in-container">
-      <p className="page-title">Log in</p>
+    <p className="page-title">Log in</p>
+    <div className="log-in-container">
       <input type="text" placeholder="Username" className="input-field"></input>
       <input type="text" placeholder="E-mail" className="input-field"></input>
       <input type="password" placeholder="Password" className="input-field"></input>
@@ -15,7 +15,7 @@ const logInPage = () => (
       <button className="btn">Log in</button>
     </div>
   </Layout>
- 
+
 )
 
 export default logInPage

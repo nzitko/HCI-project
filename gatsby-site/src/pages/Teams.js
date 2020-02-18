@@ -3,6 +3,7 @@ import TeamCard from "../components/TeamCard"
 import { useState } from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Footer from "../components/Footer"
 /*import ars from "../images/stadiums/emirates.jpg"
 import avl from "../images/stadiums/Aston-Villa-stadium.jpg"
 import bou from "../images/stadiums/bournemouth-stadium.jpg"
@@ -47,6 +48,7 @@ const TeamsPage = ({ data }) => {
       <div className="card-container">
         {temp}
       </div>
+      <Footer></Footer>
     </Layout>
   )
 }

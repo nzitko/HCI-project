@@ -52,7 +52,7 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   display: flex;
-  align-self: center;
+  justify-content: center;
 }
 
 .log-in-container {
@@ -63,6 +63,19 @@ a {
   height: 100%;
   margin: auto;
 }
+
+@media screen and (max-width: 960px){
+  .log-in-container{
+    width: 35%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .log-in-container{
+    width: 50%;
+  }
+}
+
 
 .input-field {
   width: 100%;
@@ -91,14 +104,6 @@ a {
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 
-.fixtures-title-name {
-  font-family: cursive;
-  font-size: 1.7rem;
-  margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .search-field {
   margin: auto;
   height: 40px;
@@ -106,6 +111,12 @@ a {
   padding:5px;
   border-radius:4px;
   font-size: large;
+}
+
+@media screen and (max-width: 250px) {
+  .search-field{
+    width: 100px;
+  }
 }
 
 .card-container {
@@ -116,12 +127,26 @@ a {
   flex-wrap:wrap;
 }
 
+@media screen and (max-width: 550px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .team-card{
 
   width: 30%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
   background-color: #adff2f;
+}
+
+@media screen and (max-width: 550px) {
+  .team-card {
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .club-image{
@@ -131,72 +156,19 @@ a {
 }
 
 .club-name{
-
+  font-size: 20px;
   text-align: center;
   padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color:red;
+  color:rgb(255, 115, 0);
   padding-bottom: 90px;
 }
 
-.match-score{
-
-  text-align:center;
+@media screen and (max-width: 550px) {
+  .club-name {
+    padding: 0;
+  }
 }
-
-.fixture-details{
-  text-align:center;
-}
-
-.fixture-container-1{
-  
-  height:75%;
-  width:100%;
-  background-color: #66CDAA;
-}
-
-.fixture-container-2{
-  
-  height:75%;
-  width:100%;
-  background-color: #4682B4;
-}
-
-
-.fixture-block{
-
-  display:flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items:center;
-}
-
-.left-club{
-
-  display:flex;
-  flex-direction:row;
-  align-items:center;
-
-}
-
-.fixture-info{
-  display:flex;
-  flex-direction: row;
-  align-items:flex-end;
-
-}
-
-.right-club{
-
-  display:flex;
-}
-
-.club-logo{
-
-  height:200px;
-  width:200px;
-}
-
 
 .slides .slick-prev,
 .slides .slick-next {
@@ -217,10 +189,11 @@ a {
   top: 50%;
   z-index:1;
   font-size: 50px;
+  
 }
 
 .slides .slick-prev {
-  left: 5%;
+  left: 2%;
 }
 
 
@@ -239,7 +212,7 @@ a {
 .slider-picture{
 
   height:550px;
-  width:1600px;
+  width:100%;
   padding: 0;
   margin:0;
 }
@@ -262,11 +235,16 @@ a {
 .game-to-watch-image1{
 
   height:200px;
-  width:200px;
+  width:15%;
+}
+
+@media screen and (max-width: 950px) {
+  .game-to-watch-span{
+    font-size: 20px;
+  }
 }
 
 .game-to-watch-span{
-
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:50px;
   align-self:center;
@@ -276,7 +254,7 @@ a {
 .game-to-watch-image2{
 
   height:200px;
-  width:200px;
+  width:15%;
 }
 
 .game-to-watch-info{
@@ -287,18 +265,25 @@ a {
 
 }
 
+.footer-container{
+  
+  background-color:#5F9EA0;
+}
+
 .footer-logo{
 
-  height:100px;
+  height:80px;
   width:100px;
+  background-color:#5F9EA0;
+
 }
 
 .footer{
 
   display: flex;
   justify-content: space-around;
-  border-top: solid #ccc;
   padding:10px;
+  background-color:#5F9EA0;
 }
 
 .copyright{
@@ -307,4 +292,152 @@ a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color:white;
   font-size:30px;
+  background-color:#5F9EA0;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+}
+
+/*SVJEZE DODANI DIO ZA PAGINATION*/
+.pagination{
+  display: flex;
+  border: black solid 1px;
+  justify-content: center;
+  background-color: aqua;
+  margin-bottom: 5px;
+  padding-left: 0px;
+}
+.pagination-item{
+  background-color: #adff2f;
+  color: white;
+  border: black solid 1px;
+  padding: 10px;
+  margin: 5px 10px;
+  font-size: larger;   
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.pagination-item:hover{
+  border:1px solid #66FCF1; 
+}
+
+.blog-container{
+  background-color:#008b8b;    
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+ 
+}
+.blog-grid{ 
+ 
+}
+.addBlog-button{
+  border: 1px solid white; 
+  background-color:#adff2f;
+  color: white;
+  padding: 10px 20px;
+}
+.addBlog-button:hover{
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blog-post{
+  background-color:rgba(0, 255, 200, 0.301);   
+  margin:10px 20px;
+  padding:10px;
+  color:white;    
+}
+
+.blog-post h4{
+  margin:0;
+}
+
+.blog-info{
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 10px;
+}
+
+
+/*Table css*/
+
+table{
+
+  width:80%;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width:600px){
+
+  th,td{
+
+    font-size: 10px;
+    padding:5px;
+    text-align:center;
+  }
+}
+
+table,th,td{
+  border:1px solid black;
+  border-collapse:collapse;
+}
+
+th,td{
+
+  font-size: 20px;
+  padding:10px;
+  text-align:center;
+}
+
+
+th{
+
+  background-color: #5F9EA0;
+
+}
+
+tr:nth-child(even){
+  background-color:#1E90FF;
+}
+
+tr:nth-child(odd){
+  background-color:#00BFFF;
+}
+
+.player-card-container{
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.player-card{
+display: flex;
+justify-content: space-around;
+border-bottom:1px solid whitesmoke;
+padding-bottom:10px;
+margin-bottom:10px;
+
+}
+
+.player-info{
+
+  font-size:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:white;
+}
+
+.player-image{
+
+  width: 300px;
+  height: 300px;
+}
+
+.player-info{
+
+  align-self:center;
+  
 }

@@ -11,7 +11,6 @@ module.exports = {
       options: {
         path: `./src/PlayerData/`,
       },
-      // 14.1.2019 ovo je nadodan za novi yaml file 
     },
     {
       resolve: `gatsby-transformer-yaml`,
@@ -41,18 +40,19 @@ module.exports = {
         // This path is relative to the root of the site.
       },
     },
+    "gatsby-plugin-mdx",
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/markdown-pages`,
-        name: `markdown-pages`,
+        name: "newspost",
+        path: `${__dirname}/src/Posts/`,
+      }
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.mdx`, `.md`],
       },
     },
-    `gatsby-transformer-remark`,
-
-    //`gatsby-plugin-theme-ui`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

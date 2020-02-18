@@ -1,17 +1,69 @@
 - key: /static/74e5b6656cc0e556ac73772f32f7be4a/c83a6/pukki.jpg
   name: Pukki
-  price: 250 HRK
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  nationality: Finland 
+  club: Norwich FC
+  position: Forward
   
 - key: /static/401f198c0fd0525386be12dfe80db454/c83a6/lacazette.jpg
   name: Lacazette
-  price: 300 HRK
-  description: Modern Warfare 3 će oduševiti igrače s novim načinima Survival, u kojem će se dva igrača u on-line igri suočiti sa beskonačnom navalom neprijatelja. Svaki slijedeći val postupno će postati sve zahtjevniji i zahtjevniji.U osnovi je slično načinu World at War Nazi Zombies, osim što se neprijatelji neće pojaviti na predodređenim lokacijama poput zombija, već na taktičkim položajima, koji će ovisiti o trenutnom položaja igrača. Ako za igranje ovog načina nećete moći pronaći nijednog prijatelja, možete se uhvatiti u koštac protiv AI, ali igra će zaista blistati u kooperativnom načinu.
-  link: https://www.youtube.com/embed/coiTJbr9m04
-  producer: Activision
-  class: firstperson, shooter
-  age: 18+ 
+  nationality: France 
+  club: Arsenal FC
+  position: Forward
+
+- key: /static/5aaab65e12f42e1343bd0f82ca41ac9d/49880/vardy.jpg
+  name: Vardy
+  nationality: England 
+  club: Leicester FC
+  position: Forward
+
+- key: /static/19c53aee69f7fe8268ebbae4e582b5fa/bc3a8/martial.jpg
+  name: Martial
+  nationality: France 
+  club: Manchester United FC
+  position: Forward
+
+- key: /static/9ed218edc77bff7c279bc7abc04f58f3/d0953/trent.jpg
+  name: Trent
+  nationality: England 
+  club: Liverpool FC
+  position: Defense
+
+- key: /static/512fbca3b964c55b9f6102d283c0f579/bc3a8/kante.jpg
+  name: Kante
+  nationality: France 
+  club: Chelsea FC
+  position: Midfield
+
+- key: /static/b74ead5952c6f9b41d580702910c64c6/bc3a8/son.jpg
+  name: Son
+  nationality: Korea
+  club: Tottenham Hotspur FC
+  position: Midfield
+
+- key: /static/23ad1e7f5b725a88afb113327dc04b4b/8539d/ryan.jpg
+  name: Ryan
+  nationality: Australia
+  club: Brighton FC
+  position: Goalkeeper
+
+- key: /static/29e5132ac9bae8dfd15fc8755662f313/bc3a8/aguero.jpg
+  name: Aguero
+  nationality: Argentina 
+  club: Manchester City FC
+  position: Forward
+
+- key: /static/3a67b795c374e915df78c34006b631a0/bc3a8/firmino.jpg
+  name: Firmino
+  nationality: Brazil 
+  club: Liverpool FC
+  position: Forward
+
+- key: /static/391500964674e5accdc018946b9c7182/bc3a8/rice.jpg
+  name: Rice
+  nationality: England 
+  club: West Ham FC
+  position: Midfield
+
+
+
+ 
