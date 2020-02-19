@@ -9,3 +9,7 @@ Made with figma
 * https://www.figma.com/file/t3jDbsexRo8yEjC53HsCKC/Premier-league-app?node-id=0%3A1
 * https://www.figma.com/file/t3jDbsexRo8yEjC53HsCKC/Premier-league-app?node-id=4%3A2
 * https://www.figma.com/file/t3jDbsexRo8yEjC53HsCKC/Premier-league-app?node-id=16%3A15
+
+# Netlify link
+
+https://sleepy-minsky-c45768.netlify.com/
