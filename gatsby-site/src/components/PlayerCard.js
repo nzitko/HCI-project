@@ -3,9 +3,6 @@ import "./layout.css"
 import Img from "gatsby-image"
 
 const PlayerCard = ({ key, image, metadata }) => {
-    console.log("eeeeee", key);
-    console.log("eeeeee", image);
-    console.log("eeeeee", metadata);
     return (
         <div className="player-card">
             <Img key={key} fluid={image} alt="arsenal" className="player-image" />

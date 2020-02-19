@@ -19,7 +19,7 @@
 - key: /static/19c53aee69f7fe8268ebbae4e582b5fa/bc3a8/martial.jpg
   name: Martial
   nationality: France 
-  club: Manchester United FC
+  club: Man United FC
   position: Forward
 
 - key: /static/9ed218edc77bff7c279bc7abc04f58f3/d0953/trent.jpg
@@ -37,7 +37,7 @@
 - key: /static/b74ead5952c6f9b41d580702910c64c6/bc3a8/son.jpg
   name: Son
   nationality: Korea
-  club: Tottenham Hotspur FC
+  club: Tottenham FC
   position: Midfield
 
 - key: /static/23ad1e7f5b725a88afb113327dc04b4b/8539d/ryan.jpg
@@ -49,7 +49,7 @@
 - key: /static/29e5132ac9bae8dfd15fc8755662f313/bc3a8/aguero.jpg
   name: Aguero
   nationality: Argentina 
-  club: Manchester City FC
+  club: Man City FC
   position: Forward
 
 - key: /static/3a67b795c374e915df78c34006b631a0/bc3a8/firmino.jpg

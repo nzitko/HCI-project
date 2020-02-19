@@ -219,11 +219,15 @@ a {
 
 
 .game-to-watch-text{
-
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:50px;
   text-align:center;
+}
 
+@media only screen and (max-width:550px){
+  .game-to-watch-text{
+    font-size: 30px;
+  }
 }
 
 .game-to-watch-container{
@@ -238,17 +242,10 @@ a {
   width:15%;
 }
 
-@media screen and (max-width: 950px) {
-  .game-to-watch-span{
-    font-size: 20px;
+@media screen and (max-width: 550px) {
+  .game-to-watch-image1{
+    height:100px;
   }
-}
-
-.game-to-watch-span{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size:50px;
-  align-self:center;
-
 }
 
 .game-to-watch-image2{
@@ -257,12 +254,34 @@ a {
   width:15%;
 }
 
-.game-to-watch-info{
+@media screen and (max-width: 550px) {
+  .game-to-watch-image2{
+    height:100px;
+  }
+}
 
+.game-to-watch-span{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:50px;
+  align-self:center;
+}
+
+@media only screen and (max-width:550px){
+  .game-to-watch-span{
+    font-size: 30px;
+  }
+}
+
+.game-to-watch-info{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size:50px;
   text-align:center;
+}
 
+@media only screen and (max-width:550px){
+  .game-to-watch-info{
+    font-size: 30px;
+  }
 }
 
 .footer-container{
@@ -330,9 +349,7 @@ a {
   justify-content: space-around;
  
 }
-.blog-grid{ 
- 
-}
+
 .addBlog-button{
   border: 1px solid white; 
   background-color:#adff2f;
@@ -415,8 +432,10 @@ tr:nth-child(odd){
 }
 
 .player-card{
-display: flex;
-justify-content: space-around;
+display: grid;
+grid-template-columns: 25% 25% 25% 25%;
+padding-left: 10px;
+
 border-bottom:1px solid whitesmoke;
 padding-bottom:10px;
 margin-bottom:10px;
@@ -428,16 +447,37 @@ margin-bottom:10px;
   font-size:20px;
   font-family: Arial, Helvetica, sans-serif;
   color:white;
+  align-self:center;
+}
+
+@media only screen and (max-width:600px){
+  .player-info{
+    font-size:15px;
+  }
 }
 
 .player-image{
-
-  width: 300px;
-  height: 300px;
+  width: 100px;
+  height: 100px;
 }
 
-.player-info{
+@media only screen and (max-width:600px){
+  .player-image{
+    width: 70px;
+    height: 70px;
+  }
+}
 
-  align-self:center;
-  
+.player-table-information{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width:600px){
+.player-table-information{
+    font-size:15px;
+    
+  }
 }

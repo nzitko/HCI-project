@@ -10,15 +10,10 @@ import { graphql } from 'gatsby'
 import "../components/layout.css"
 
 const SocialPage = ({ data }) => {
-  console.log(data);
 
   const [posts, setPosts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(4);
-
-  /*let data1 = data.allMdx.edges
-  let proba = data1.sort((a, b) => (Date.parse(a.node.frontmatter.date) < Date.parse(b.node.frontmatter.date)) ? 1 : -1)
-  console.log("lelelle", proba)*/
 
   let temp = data.allMdx.edges.map((node, index) => {
     return <div className="blog-post" key={index}>
